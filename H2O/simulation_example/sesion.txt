@@ -1,0 +1,7 @@
+conda activate
+
+preparacio estructura:
+
+import numpy as np
+from sisl import *
+import matplotlib.pyplot as plt

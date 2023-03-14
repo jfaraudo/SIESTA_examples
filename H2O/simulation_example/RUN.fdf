@@ -1,0 +1,13 @@
+%include STRUCT.fdf
+SystemLabel siesta_1
+PAO.BasisSize SZP
+MeshCutoff 250. Ry
+CDF.Save true
+CDF.Compress 9
+SaveHS true
+SaveRho true
+
+#Output
+
+WriteCoorXmol          true         #Save the final coordinates in .xyz format 
+
