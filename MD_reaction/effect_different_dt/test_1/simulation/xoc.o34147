@@ -1,0 +1,9 @@
+Running on compute-0-4.local
+This jobs runs on the following processors:
+compute-0-4 compute-0-4 compute-0-4 compute-0-4 compute-0-4 compute-0-4 compute-0-4 compute-0-4
+This job has allocated 8 nodes
+/home/grau/MDsiesta/example_simulation_2/test2/simulation
+Mon May  6 14:48:08 CEST 2019
+-----------
+ Run SIESTA MD example
+Mon May  6 15:28:31 CEST 2019
