@@ -1,5 +1,5 @@
-Example of SIESTA calculation with C60
+Example of SIESTA calculation of C60 molecular orbitals
 
-Calculation of molecular orbitals
-MD simulation
+- input files
+- output files produced in a run of the provided input
 
