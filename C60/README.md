@@ -1,5 +1,7 @@
-Example of SIESTA calculation of C60 molecular orbitals
+# Exercise 
+Example of SIESTA calculation of $$C_60$$ HOMO - LUMO 
 
-- input files
-- output files produced in a run of the provided input
+We provide:
+- Input files ready to be used
+- Example visualization of output
 
