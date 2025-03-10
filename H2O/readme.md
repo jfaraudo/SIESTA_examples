@@ -1,4 +1,4 @@
-Files based on the SISL - SIESTA tutorial H2O molecule
+Files based on the SISL - SIESTA tutorial $$H_2O$$ molecule
 https://sisl.readthedocs.io/en/latest/tutorials/tutorial_siesta_1.html
 
 Includes:
