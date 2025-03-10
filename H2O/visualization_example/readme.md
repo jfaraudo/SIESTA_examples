@@ -1,4 +1,4 @@
-HOMO/LUMO visualization with VMD
+# HOMO/LUMO visualization with VMD
 
 Images generated with VMD with screenshot with the options used to generate this image from the corresponding .cube files
 
@@ -9,3 +9,7 @@ https://water.lsbu.ac.uk/water/h2o_orbitals.html
 A good summary of the structure of .cube files can be found here:
 http://paulbourke.net/dataformats/cube/
 
+* Snapshots of VMD options
+
+![alternativetext](vmd_menu.png)
+![alternativetext](vmd_1.png)
