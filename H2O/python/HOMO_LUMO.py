@@ -31,7 +31,7 @@ print(H)
 es = H.eigenstate()
 
 # We specify an origin to center the molecule in the grid
-h2o.sc.origin = [-4, -4, -4]
+h2o.lattice.origin = [-4, -4, -4]
 
 # Reduce the contained eigenstates to only the HOMO and LUMO
 # Find the index of the smallest positive eigenvalue
@@ -40,13 +40,14 @@ es = es.sub([idx_lumo - 1, idx_lumo])
 
 # Ordered eigenstates (show only HOMO LUMO)
 print("Ordered Eigenstates")
-print(es)
+#print(es)
 
 print("Energies")
 print(es.eig)
 
 #Create a grid to project the density
-g = Grid(0.2, sc=h2o.sc)
+#g = Grid(0.2, sc=h2o.sc)
+g = Grid(0.2, lattice=h2o.lattice)
 
 #HOMO
 es.sub(0).wavefunction(g)
