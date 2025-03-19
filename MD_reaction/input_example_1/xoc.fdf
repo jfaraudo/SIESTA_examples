@@ -35,7 +35,7 @@ LatticeConstant       1.0000 Ang
 
 # SCF options
 #SCFMustConvergence     true
-MaxSCFIterations       150          # Maximum number of SCF iter
+MaxSCFIterations       250          # Maximum number of SCF iter
 DM.MixingWeight       0.02          # New DM amount for next SCF cycle
 DM.Tolerance          3.d-4         # Tolerance in maximum difference
                                     # between input and output DM
