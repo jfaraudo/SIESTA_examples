@@ -7,8 +7,9 @@ Example fdf files suitable for geometry optimization (energy minimization) of mo
 In both cases the script expects a structure.fdf file with the coordinates.
 
 ## Further Information
+
 More information about geometry optimization in SIESTA from the official tutorials is available [here](https://docs.siesta-project.org/projects/siesta/en/latest/tutorials/basic/structure-optimization/).
 
-
+More information about optimizing aspects of SIESTA calculations (basis set, level of theory,...) from the official tutorials is available [here](https://docs.siesta-project.org/projects/siesta/en/stable/tutorials/basic/first-encounter-theorylevel/index.html#tutorial-basic-first-encounter-theorylevel)
 
 A good presentation about the concepts involved can be found [here](https://siesta.icmab.es/siesta/events/SIESTA_School-2024/Geometry_Optimization+MD-2024.pdf).
