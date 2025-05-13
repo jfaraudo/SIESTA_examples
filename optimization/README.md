@@ -1,11 +1,12 @@
-## Geometry optimization
-# fdf Scripts
+# Geometry optimization
+## fdf Scripts
 Example fdf files suitable for geometry optimization (energy minimization) of molecules and crystals:
 - geometry optimization of an isolated molecule: optimization.fdf
 - structure relaxation (variable cell) of a crystal: relaxation.fdf
 
 In both cases the script expects a structure.fdf file with the coordinates.
 
+## Further Information
 More information about geometry optimization in SIESTA from the official tutorials is available [here](https://docs.siesta-project.org/projects/siesta/en/latest/tutorials/basic/structure-optimization/).
 
 
