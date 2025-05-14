@@ -6,6 +6,9 @@ Example fdf files suitable for geometry optimization (energy minimization) of mo
 
 In both cases the script expects a structure.fdf file with the coordinates.
 
+## Pseudopotentials
+Pseudopotentials for SIESTA v5 in psml format can be downloaded from [pseudo-dojo](https://www.pseudo-dojo.org/)
+
 ## Further Information
 
 More information about geometry optimization in SIESTA from the official tutorials is available [here](https://docs.siesta-project.org/projects/siesta/en/latest/tutorials/basic/structure-optimization/).
