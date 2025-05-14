@@ -5,6 +5,7 @@ Example fdf files suitable for geometry optimization (energy minimization) of mo
 - structure relaxation (variable cell) of a crystal: relaxation.fdf
 
 In both cases the script expects a structure.fdf file with the coordinates.
+Initial structures can be build with software such VMD or Avogadro, saved in xyz and later on transformed to fdf format using sgeom.
 
 ## Pseudopotentials
 Pseudopotentials for SIESTA v5 in psml format can be downloaded from [pseudo-dojo](https://www.pseudo-dojo.org/)
