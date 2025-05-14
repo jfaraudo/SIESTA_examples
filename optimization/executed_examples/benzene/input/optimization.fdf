@@ -1,0 +1,37 @@
+#Geometry optimization (energy minimization)
+# https://docs.siesta-project.org/projects/siesta/en/latest/tutorials/basic/structure-optimization/
+SystemLabel optimization
+
+#input structure
+%include structure.fdf
+
+#General aspects Calculation (Basis Set and functional)
+PAO.BasisSize DZP
+BasisPressure 0.02 GPa  #needed for small molecules in siesta
+PAO.EnergyShift 10 meV
+XC.functional     GGA 
+XC.authors        PBE 
+
+# General Output
+SaveHS true   #Save the Hamiltonian
+
+# Geometry Optimization Options
+MD.TypeOfRun     CG  #Conjugate Gradient Method
+MD.Steps         50  #Number of Steps
+MD.MaxForceTol   0.005 eV/Ang
+
+# Geometry Optimization Output
+
+WriteCoorXmol          true         #Save the final coordinates in .xyz format 
+
+WriteMDXmol            true         #Writes the coordinates 
+                                    #of all atoms at all steps
+                                    #in a .ANI file
+                                    #in xyz format
+                                    
+WriteMDhistory         true         #writes .MDE and .MD files
+                                    # with output data from MD simulation
+                                    # MDE contains: Temp, energy, volume, pressure 
+                                    # (human readable)
+                                    # MD contains coords vel lattice vectors
+                                    # (unformatted; post-process with iomd.f)  
