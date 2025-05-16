@@ -1,0 +1,18 @@
+#Geometry optimization (energy minimization)
+# https://docs.siesta-project.org/projects/siesta/en/latest/tutorials/basic/structure-optimization/
+SystemLabel optimization
+
+#input structure
+%include structure.fdf
+
+#General aspects Calculation (Basis Set and functional)
+PAO.BasisSize DZP
+BasisPressure 0.02 GPa  #needed for small molecules in siesta
+PAO.EnergyShift 10 meV
+XC.functional     GGA 
+XC.authors        PBE 
+
+# General Output
+SaveHS true   #Save the Hamiltonian
+
+
