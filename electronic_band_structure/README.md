@@ -1,1 +1,4 @@
-Example of calculation and analysis of electronic structure of a 2D material: graphene
+# Band structure
+Template files for calculation and analysis of electronic band structure with SIESTA.
+
+Solved example for graphene
