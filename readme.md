@@ -21,3 +21,7 @@ https://docs.siesta-project.org/projects/siesta/en/latest/tutorials/index.html
 Note:
 Here the input structures are provided in fdf format (native format for SIESTA) and xyz.
 The conversion between both formats can be done easily using the sgeom command in sisl as described [here](https://sisl.readthedocs.io/en/latest/scripts/sgeom.html)
+
+## Pseudopotentials
+Pseudopotentials for SIESTA v5 in psml format can be downloaded from [pseudo-dojo](https://www.pseudo-dojo.org/)
+
