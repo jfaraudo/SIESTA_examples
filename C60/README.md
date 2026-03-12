@@ -5,3 +5,6 @@ We provide:
 - Input files ready to be used
 - Example visualization of output
 
+
+![alternativetext](C60_HOMO.png)
+
