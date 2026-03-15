@@ -8,6 +8,6 @@ We provide sample input files and examples of execution changing some parameters
 
 For a PowerPoint with more details of this example see [here](https://saco.csic.es/s/sepgfk32eSp4oM3) 
 
-For full descriptin of SIESTA Molecular Dynamics capabilities see this [presentation](https://siesta-project.org/SIESTA_MATERIAL/Docs/Tutorials/Lyon-2007/MDMV-last.pdf)
+For full description of SIESTA Molecular Dynamics capabilities see this [presentation](https://siesta-project.org/SIESTA_MATERIAL/Docs/Tutorials/Lyon-2007/MDMV-last.pdf)
 
 
