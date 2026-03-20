@@ -17,7 +17,7 @@ SaveHS true   #Save the Hamiltonian
 
 # Geometry Optimization Options
 MD.TypeOfRun     CG  #Conjugate Gradient Method
-MD.Steps         50  #Number of Steps
+MD.Steps         10  #Number of Steps
 MD.MaxForceTol   0.005 eV/Ang
 
 # Geometry Optimization Output
