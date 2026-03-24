@@ -4,7 +4,7 @@
 
 $$H_2+O_2 -> H_2O_2 $$
 
-We provide sample input files and examples of execution changing some parameters (time step, simulaiton time,...)
+We provide sample input files and examples of execution changing initial conditions and some simulation parameters (time step, simulation time,...)
 
 For a PowerPoint with more details of this example see [here](https://saco.csic.es/s/sepgfk32eSp4oM3) 
 
