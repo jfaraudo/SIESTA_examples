@@ -1,0 +1,76 @@
+#Molecular Dynamics simulation
+SystemLabel si8
+
+#input structure
+%include structure.fdf
+
+#General aspects DFT Calculation
+
+PAO.BasisSize SZP    #we use SZP instead of DZP to sped up calculation
+#BasisPressure 0.02 GPa  #needed for small molecules in siesta
+PAO.EnergyShift 300 meV
+XC.functional     GGA 
+XC.authors        PBE 
+
+SolutionMethod         diagon    
+ElectronicTemperature  25 meV  
+MeshCutoff          30.0 Ry
+%block kgrid_Monkhorst_Pack
+   2  0  0  0.0 
+   0  2  0  0.0 
+   0  0  2  0.0 
+%endblock kgrid_Monkhorst_Pack 
+DM.NumberPulay      3  
+
+# SCF options
+#SCFMustConvergence     true
+MaxSCFIterations       100          # Maximum number of SCF iter
+SCF.Mixer.Weight       0.3          # New DM amount for next SCF cycle
+DM.NumberPulay      3  
+DM.Tolerance          1.d-3         # Tolerance in SCF iterations d-4 by default
+
+# General Output
+SaveHS true   #Save the Hamiltonian
+
+# -----------------------------
+#  MD options
+#  NVT Ensemble
+# -----------------------------
+
+MD.TypeOfRun            NoseParrinelloRahman   #Thermostat and barostat
+
+# Thermostat options
+MD.InitialTemperature   300.0 K
+MD.TargetTemperature    300.0 K
+MD.NoseMass             10.0 Ry*fs**2
+
+# Barostat options
+MD.ParrinelloRahmanMass 10.0 Ry*fs**2
+MD.TargetPressure       0.0 GPa
+
+# Options to Integrate Equations of motion
+MD.LengthTimeStep         1.0 fs    # time step integration
+                                    # Newton eqs of motion  
+                                  
+MD.Initial.Time.Step     1          #initial time step of MD
+
+MD.FinalTimeStep         500        #Final time step of MD
+
+# MD Output
+
+MD.UseSaveData      true
+MD.UseSaveXV 		true            
+
+WriteCoorXmol          true         #Save the final coordinates in .xyz format 
+
+WriteMDXmol            true         #Writes the coordinates 
+                                    #of all atoms at all steps
+                                    #in a .ANI file
+                                    #in xyz format
+                                    
+WriteMDhistory         true         #writes .MDE and .MD files
+                                    # with output data from MD simulation
+                                    # MDE contains: Temp, energy, volume, pressure 
+                                    # (human readable)
+                                    # MD contains coords vel lattice vectors
+                                    # (unformatted; post-process with iomd.f)  
