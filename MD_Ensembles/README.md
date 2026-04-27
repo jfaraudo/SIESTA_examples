@@ -6,3 +6,5 @@ Examples based on the official SIESTA [tutorial](https://docs.siesta-project.org
 - NVT: Nose-Hoover Thermostat
 - NpT: Nose-Hoover Thermostat and Rahman-Parrinello Barostat
 
+Introduction to the microscopic interpretation of temperature and thermostats [here](https://saco.csic.es/s/tcn83zymYAAMCwK).
+
