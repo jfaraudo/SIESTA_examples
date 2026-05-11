@@ -5,5 +5,6 @@ This is roughly based on the official SIESTA tutorial [Simulation of STM images]
 We provide:
 - Model of a simple fdf file for SIESTA to obtain the Hamiltonian, needed for the STM calculation
 - Template of a jupyter notebook for STM analysis using SISL,
-- Template of a jupyter notebook to export to cube files for visualization with external software such as VMD. 
+- Template of a jupyter notebook to export to cube files for visualization with external software such as VMD.
+- Example of a notebook that reads an xyz file of a molecule, centers it to the desired place and converts it to fdf
 - Data for a fully solved example for a benzene molecule
