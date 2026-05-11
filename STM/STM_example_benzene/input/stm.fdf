@@ -1,6 +1,6 @@
-#Hamiltonian Calculation
-# https://docs.siesta-project.org/projects/siesta/en/latest/tutorials/basic/structure-optimization/
-SystemLabel optimization
+#Hamiltonian Calculation for STM
+# https://docs.siesta-project.org/projects/siesta/en/stable/tutorials/applications/stm-images/index.html
+SystemLabel stm
 
 #input structure
 %include structure.fdf
